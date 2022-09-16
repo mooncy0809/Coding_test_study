@@ -1,7 +1,4 @@
 n,s = input().split()
-n = int(n)
-str = s[:n-1]+s[n:]
-if str:
-    print(str)
-else:
-    print(-1)
+for i in s:
+    for j in range(int(n)):
+        print(i,end='')
